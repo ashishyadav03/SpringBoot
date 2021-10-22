@@ -23,13 +23,6 @@ tools {
             }
         }
 
-stage('Deploy Application') {
-            steps {
-                echo 'Deploying'
-                
-                    bat 'mvn deploy'
-                
-            }
-        }
+
     }
 }
